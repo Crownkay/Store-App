@@ -3,6 +3,7 @@ import {storeProducts, detailsProduct} from './data'
 const ProductContext = React.createContext()
 
 class ProductProvider extends Component {
+    {console.log("hello")}
     state = {
         products: [],
         detailsProduct: detailsProduct
