@@ -3,7 +3,6 @@ import {storeProducts, detailsProduct} from './data'
 const ProductContext = React.createContext()
 
 class ProductProvider extends Component {
-    {console.log("hello")}
     state = {
         products: [],
         detailsProduct: detailsProduct
@@ -22,12 +21,19 @@ class ProductProvider extends Component {
         });
     };
 
-    handleDetail = ()=> {
-        console.log('hello from details');
-        
+    getItem = id => {
+        const product = this.state.products.find(item => item.id === id);
+        return product;
+    }
+
+    handleDetail = (id) => {
+        const product = this.getItem(id);
+        this.setState(()=> {
+            return { detailsProduct : product }
+        })  
     };
-    addCart = () => {
-        console.log('hello from cart');
+    addToCart = id => {
+        console.log(`hello from add to cart.id is clicked ${id}`);
         
     };
     render() {
@@ -35,7 +41,7 @@ class ProductProvider extends Component {
             <ProductContext.Provider value={{
                 ...this.state,
                 handleDetail: this.handleDetail,
-                addCart: this.addCart
+                addToCart: this.addToCart
             }}>
                 {this.props.children}
             </ProductContext.Provider>
