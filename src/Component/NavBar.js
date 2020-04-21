@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import '../node_modules/font-awesome/css/font-awesome.min.css'
 import logo from '../k.png'
 import styled from "styled-components"
@@ -15,7 +14,7 @@ export default class NavBar extends Component {
                 Creative Commons (Attribution 3.0 Unported);
                 https://wwww.iconfinder.com/Makoto_msk */}
                 <BrowserRouter>
-                <Link to="/">
+                <Link to='/'>
                     <img src={logo} alt="store" className="navbar-brand" />
                 </Link>
                 <ul className= "navbar-nav alignitems-center">

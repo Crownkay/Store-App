@@ -1,14 +1,15 @@
-.navWrapper{
+.navWrapper {
     /* background-color: skyblue; */
     border-bottom: 1px solid #000;
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-around;
-    padding:12px;
+    padding: 12px;
 }
-.navWrapper li{
+
+.navWrapper li {
     list-style: none;
     text-decoration: none;
     font-weight: 600;
-    font-family: "avenir" tahoma;
+    font-family: "avenir"tahoma;
 }

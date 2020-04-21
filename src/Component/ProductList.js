@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import Product from "./Products"
 import Title from "./Title"
 import { storeProducts } from "../data"
@@ -8,7 +8,7 @@ import {ProductConsumer} from '../Context'
 export default class ProductList extends Component {
     render() {       
         return (
-           <React.Fragment>
+           <Fragment>
                <div className='py-5'>
                    <div className='container'>
                         <Title name="our" title="products" />
@@ -26,7 +26,7 @@ export default class ProductList extends Component {
                    </div>
 
                </div>
-           </React.Fragment>
+           </Fragment>
         )
     }
 }
