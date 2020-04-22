@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './Component/NavBar'
@@ -16,7 +16,6 @@ class App extends Component {
       
         <Fragment>
             <NavBar/>
-            <BrowserRouter>
               <Switch>
                 <Route exact path="/" component={ProductList}/>
                 <Route exact path="/details" component={Details}/>
@@ -24,7 +23,6 @@ class App extends Component {
                 <Route component={Default}/>
               </Switch>
               <Modal />
-            </BrowserRouter>
         </Fragment>
       
     )
