@@ -9,13 +9,17 @@ export default class NavBar extends Component {
         return (
             <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5'>
                 <Link to='/'>
-                    <img src={logo} alt="store" className="navbar-brand" />
+                    <img src={logo} alt="store" className="img-fluid navbar-brand mx-auto" />
                 </Link>
+                <BrandName>
+                    <Link to="/" className="brand-name">
+                            Crownkay
+                    </Link>
+                </BrandName>
+                
                 <ul className= "navbar-nav align-items-center">
                     <li className= "nav-item ml-auto">
-                        <Link to="/" className="nav-link">
-                            Crownkay
-                        </Link>
+                        
                     </li>
                 </ul>
                 <Link to='/cart' className="ml-auto">
@@ -37,7 +41,32 @@ background: var(--mainBlue);
     color: var(--mainWhite)!important;
     font-size: 1.5rem;
     text-transform: uppercase;
-
+}
+@media screen and (max-width: 400px)    {
+    img{
+        max-width: 60%;
+    }
+@media screen and (max-width: 260px)    {
+    img{
+        max-width: 50%;
+    }
 }
 `
-
+const BrandName = styled.div`
+.brand-name{
+        color: var(--mainWhite)!important;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    };
+@media screen and (max-width: 400px)    {
+    .brand-name{
+        font-size: 1rem;
+    }
+@media screen and (max-width: 260px)    {
+    .brand-name{
+        font-size: .8rem;
+    }
+}
+}
+`

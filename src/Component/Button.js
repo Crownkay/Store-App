@@ -19,4 +19,10 @@ transition: all 0.5s ease-in-out;
 &:focus {
     outline: none;
 }
+@media screen and (max-width: 400px)    {
+    font-size: 1rem;
+}
+@media screen and (max-width: 260px)    {
+    font-size: .8rem;
+}
 `;

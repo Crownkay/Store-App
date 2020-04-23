@@ -4,8 +4,7 @@ export const storeProducts = [{
         img: 'img/shoe1.jpg',
         price: 110,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: ` 
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -23,8 +22,7 @@ export const storeProducts = [{
         img: 'img/shoe2.jpg',
         price: 150,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: ` 
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -42,8 +40,7 @@ export const storeProducts = [{
         img: 'img/shoe3.jpg',
         price: 200,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -59,10 +56,9 @@ export const storeProducts = [{
         id: 5,
         title: 'Diamond Sueade',
         img: 'img/shoe5.jpg',
-        price: 20000,
+        price: 250,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: ` 
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -76,12 +72,11 @@ export const storeProducts = [{
     },
     {
         id: 6,
-        title: 'Google Pixel - Black',
+        title: 'Leather Black',
         img: 'img/shoe6.jpg',
-        price: 10,
+        price: 100,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -95,12 +90,11 @@ export const storeProducts = [{
     },
     {
         id: 7,
-        title: 'Google Pixel - Black',
+        title: 'Sneaker',
         img: 'img/shoe7.jpg',
-        price: 10,
+        price: 120,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -114,12 +108,11 @@ export const storeProducts = [{
     },
     {
         id: 8,
-        title: 'Google Pixel - Black',
+        title: 'Shoe',
         img: 'img/shoe8.jpg',
-        price: 10,
+        price: 130,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -135,10 +128,9 @@ export const storeProducts = [{
         id: 9,
         title: 'Google Pixel - Black',
         img: 'img/shoe9.jpg',
-        price: 10,
+        price: 400,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -154,10 +146,9 @@ export const storeProducts = [{
         id: 10,
         title: 'Google Pixel - Black',
         img: 'img/shoe10.jpeg',
-        price: 10,
+        price: 103,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -173,10 +164,9 @@ export const storeProducts = [{
         id: 11,
         title: 'Google Pixel - Black',
         img: 'img/shoe1.jpg',
-        price: 10,
+        price: 210,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -192,10 +182,9 @@ export const storeProducts = [{
         id: 12,
         title: 'Google Pixel - Black',
         img: 'img/shoe3.jpg',
-        price: 10,
+        price: 110,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
@@ -211,10 +200,9 @@ export const storeProducts = [{
         id: 13,
         title: 'Google Pixel - Black',
         img: 'img/shoe8.jpg',
-        price: 10,
+        price: 220,
         company: 'Crownkay',
-        info: `An outlier is a data value which is too extreme to 
-        belong in the distribution of interest. 
+        info: `
         Let’s suppose in our example that the assembly 
         machine ran out of a particular component, 
         resulting in a laptop that was assembled at a much lower weight. 
